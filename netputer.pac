@@ -7123,7 +7123,7 @@ function debug(host, isDirect, message) {
 }
 
 function isIPFormat(host) {
-    return host.split('.').length === 4;
+    return !isNaN(Number(host.split('.').join('')));
 }
 
 function isIntranetIP(ip) {
