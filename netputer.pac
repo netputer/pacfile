@@ -1,6 +1,6 @@
 var PAC_DIRECT = 'DIRECT;';
 var PAC_PROXY = 'SOCKS5 127.0.0.1:55555; SOCKS 127.0.0.1:55555; DIRECT;';
-var DEBUG_FLAG = false;
+var DEBUG_FLAG = false; // Safari may not work if you turn on `DEBUG_FLAG`
 
 var SAFE_DOMAINS = {
     "0-6.com": 1,
@@ -1073,6 +1073,7 @@ var SAFE_DOMAINS = {
     "amazingstore.org": 1,
     "amazon.cn": 1,
     "amazon.com": 1,
+    "amazonaws.com": 1,
     "ambafrance-cn.org": 1,
     "amex-cmb.com": 1,
     "amgbs.com": 1,
@@ -7093,7 +7094,6 @@ var SAFE_DOMAINS = {
     "zuiji.com": 1,
     "zunedown.com": 1,
     "zuoche.com": 1,
-    "amazonaws.com": 1,
     "zuotupian.com": 1,
     "zw97.com": 1,
     "zwads.com": 1,
@@ -7114,7 +7114,7 @@ var SAFE_DOMAINS = {
 
 var debug = function () {};
 
-    if (DEBUG_FLAG) {
+if (DEBUG_FLAG) {
     debug = function (host, isDirect, message) {
         alert([
             '[', host, '] ',
