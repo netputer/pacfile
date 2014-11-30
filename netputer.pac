@@ -7112,14 +7112,16 @@ var SAFE_DOMAINS = {
     "zzidc.com": 1
 };
 
-function debug(host, isDirect, message) {
+var debug = function () {};
+
     if (DEBUG_FLAG) {
+    debug = function (host, isDirect, message) {
         alert([
             '[', host, '] ',
             isDirect ? 'DIRECT' : 'PROXY',
             ': ', message
         ].join(''));
-    }
+    };
 }
 
 function isIPFormat(host) {
