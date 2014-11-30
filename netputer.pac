@@ -2192,7 +2192,7 @@ var SAFE_DOMAINS = {
     "didaimg.com": 1,
     "didatuan.com": 1,
     "digi-uniclick.net": 1,
-    "digicert.com": 1,
+    // "digicert.com": 1,
     "digieq.com": 1,
     "digitalchina.com": 1,
     "diglog.com": 1,
