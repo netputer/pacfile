@@ -7179,8 +7179,8 @@ function FindProxyForURL(url, host) {
         return PAC_DIRECT;
     }
 
-    if (isIPFormat(host) && isIntranetIP(host)) {
-        debug(host, true, 'intranet_ip');
+    if (isIPFormat(host)) {
+        debug(host, true, 'ip_address');
         return PAC_DIRECT;
     }
 
