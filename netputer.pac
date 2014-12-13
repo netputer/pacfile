@@ -1,5 +1,5 @@
 var PAC_DIRECT = 'DIRECT;';
-var PAC_PROXY = 'SOCKS5 127.0.0.1:55555; SOCKS 127.0.0.1:55555; DIRECT;';
+var PAC_PROXY = 'PROXY 127.0.0.1:55555; SOCKS5 127.0.0.1:55555; SOCKS 127.0.0.1:55555; DIRECT;';
 var DEBUG_FLAG = false; // Safari may not work if you turn on `DEBUG_FLAG`
 
 var SAFE_DOMAINS = {
