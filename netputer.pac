@@ -1073,7 +1073,6 @@ var SAFE_DOMAINS = {
     "amazingstore.org": 1,
     "amazon.cn": 1,
     "amazon.com": 1,
-    "amazonaws.com": 1,
     "ambafrance-cn.org": 1,
     "amex-cmb.com": 1,
     "amgbs.com": 1,
