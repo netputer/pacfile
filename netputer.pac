@@ -5836,7 +5836,6 @@ var SAFE_DOMAINS = {
     "travelsky.com": 1,
     "travelzoo.com": 1,
     "treasureislandmedia.com": 1,
-    "trello.com": 1,
     "triace768.com": 1,
     "triacebike.com": 1,
     "trip8080.com": 1,
