@@ -4422,6 +4422,7 @@ var SAFE_DOMAINS = {
     "mt30.com": 1,
     "mtime.com": 1,
     "mtimeimg.com": 1,
+    "mtmos.com": 1,
     "mtuo.com": 1,
     "muduobt.com": 1,
     "muhecdn.com": 1,
