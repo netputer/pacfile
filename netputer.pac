@@ -6045,7 +6045,6 @@ var SAFE_DOMAINS = {
     "v-56.com": 1,
     "v007.net": 1,
     "v23.com": 1,
-    "v2ex.com": 1,
     "v4.cc": 1,
     "v5px.com": 1,
     "vafox.com": 1,
